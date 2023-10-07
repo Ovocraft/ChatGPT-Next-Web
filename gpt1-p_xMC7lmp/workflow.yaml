@@ -1,0 +1,13 @@
+schema: workflow/2022.04
+name: GPT1
+settings:
+  auto_retry: true
+  error_notification: true
+  lambda_memory: 512
+triggers:
+- id: hi_ERH9Gpy
+steps:
+- namespace: code
+  runtime: nodejs18.x
+  uses: "./code/entry.js"
+

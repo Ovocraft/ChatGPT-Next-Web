@@ -1,0 +1,11 @@
+schema: workflow/2022.04
+name: calculate workflow
+settings:
+  error_notification: true
+triggers:
+- id: dc_yLum3bZ
+steps:
+- namespace: python
+  runtime: python3.9
+  uses: "./python/entry.py"
+

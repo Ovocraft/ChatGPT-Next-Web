@@ -8,4 +8,10 @@ steps:
 - namespace: python
   runtime: python3.9
   uses: "./python/entry.py"
+  props:
+    __configurableProps:
+    - name: data_store
+      type: data_store
+    data_store:
+      storeId: ds_eYu9wP
 
